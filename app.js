@@ -94,7 +94,7 @@ const checkWinningSkull = () => {
         } 
         else if (gameState.board[3] === gameState.board[4] && gameState.board[3] === gameState.board[5]) {
             if (gameState.board[3] !== '' && gameState.board[4] !== '' && gameState.board[5] !== ''){
-            gameElem.innerHTML = `Battle has ended, the winner is ${gameState.currentTurn}. Click Reset To Battle Again`
+            gameElem.innerHTML = `Battle has ended, the winner is ${gameState.currentTurn}. Click Reset To Battle Again `
                 return
             }
         }
