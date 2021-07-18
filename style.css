@@ -1,0 +1,56 @@
+html * {
+    font-family: "Press Start 2P", cursive;
+    background-color: #00ff00
+}
+main {
+    display: flex;
+    padding-left: 24rem;
+    justify-content: center;
+    width: 80vh;
+    flex-wrap: wrap;
+}
+.box {
+    width: 20vh;
+    height: 20vh;
+    border: 1px solid black;
+    background-color: rgb(67, 72, 78);
+    font-size: 12vh;
+    text-align: center;
+}
+h1 {
+    background-color: rgb(218, 218, 226);
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+}
+#player-turn {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+#resetButton {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.start {
+    border: rgb(0, 0, 0) solid 2px;
+    margin: .2rem;
+}
+#player-turn {
+    font-size: 24px;
+    color: black;
+}
+input {
+    border: rgb(0, 0, 0) solid 2px;
+    margin: .2rem;
+}
+.reset {
+    border: black solid 2px;
+ 
+ 
+}
